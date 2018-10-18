@@ -1,0 +1,57 @@
+.main-menu-v  {
+    display: none;
+  }
+  
+.current_tab{
+    border-top: 2px solid orangered !important;
+}
+
+
+  @media screen and (max-width: 900px) {
+    .main-menu-h  {display: none;}
+    .main-menu-v   {
+      display: block;
+
+    }
+  }
+
+  @media screen and (max-width: 996px) {
+    .tab-icon  {display: none;}
+  }
+
+  @media screen and (max-width: 767px) {
+    .options{
+      display: block !important;
+      float: right !important;
+    }
+    .tab-badge{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 555px) {
+    .icon-name{
+      display: none !important;
+    }
+    .icon-btn{
+        padding: 3px !important;
+        margin-right: 0px !important;
+    }
+    .menu-section{
+        padding-left:0px !important;
+    }
+    .internal-navigator, .internal-navigator-container{
+        padding-left:0px !important;
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+    .alert{
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 555px) {
+    .alert{
+        font-size: 12px;
+    }
+  }
