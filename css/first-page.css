@@ -5,7 +5,29 @@
 .current_tab{
     border-top: 2px solid orangered !important;
 }
+.info-bar{
+  margin-left: 3% !important;
+  padding-left: 0;
+  padding-right: 4% !important; 
+}
+.btn-text{
+  font-size: 14px;
+}
+.info-row{
+  border-bottom: 5px solid gray !important;
+}
+.find-btn{
+  margin-right: 5px !important;
+}
+@media screen and (max-width: 1200px) {
+  .infobtn1{
+    width: 30% !important;
+  }
+}
 
+@media screen and (max-width: 996px) {
+  .tab-icon  {display: none;}
+}
 
   @media screen and (max-width: 900px) {
     .main-menu-h  {display: none;}
@@ -15,18 +37,45 @@
     }
   }
 
-  @media screen and (max-width: 996px) {
-    .tab-icon  {display: none;}
-  }
-
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 775px) {
     .options{
       display: block !important;
       float: right !important;
     }
     .tab-badge{
-        display: none;
+      display: none;
     }
+    .info-icons{
+      display: none !important;
+    }
+
+  }
+
+  @media screen and (max-width: 675px) {
+    .section-tag-button  {
+      padding: 1%;
+    }
+    .infobtn{
+      padding: 1% !important;
+      width: auto !important;
+    }
+  }
+
+  @media screen and (max-width: 598px) {
+    .tab-icon  {
+      display: none;
+    }
+    .right, .left{
+      padding: 0 !important;
+    }
+    .left{
+      margin: 1px !important;
+    }
+    .find-btn{
+      padding: 1% !important;
+
+    }
+
   }
 
   @media screen and (max-width: 555px) {
@@ -45,13 +94,30 @@
         margin-left: 0px !important;
         margin-top: 10px;
     }
-    .alert{
-        font-size: 14px;
+    .section-tags{
+      padding: 0% !important;
     }
-  }
+    .section-row{
+      padding: 0% !important;
+    }
+    .info-bar, .info-row{
+      padding: 0% !important;
 
-  @media screen and (max-width: 555px) {
+    }
+    .info-row{
+      margin : 0.1%;
+      margin-right: 5%;
+    }
     .alert{
-        font-size: 12px;
+      margin-left: 2.5% !important;
+      margin-right: 0px !important;
+      font-size: 14px;
+    }
+    .tag-container{
+      padding-left: 0% !important;
+    }
+    .branch-btn, .pr-btn{
+      padding-left: 1% !important;
+      padding-right: 1% !important; 
     }
   }
